@@ -1,0 +1,87 @@
+.yoast-ai-metabox {	
+	max-width: 568px;
+    border: 1px solid #0003;
+	border-radius: 2px;
+    padding: 16px;
+    margin: 1rem 0;
+}
+
+.yoast-ai-metabox .spinner {
+	width: 32px;
+}
+
+#yoast-ai-generate {
+	margin-right: 8px;
+}
+
+#yoast-ai-actions,
+#yoast-ai-update {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin: 1rem 0;
+}
+
+#yoast-ai-actions {
+	margin-bottom: 0;
+}
+
+#yoast-ai-actions input {
+	max-width: 80px;
+}
+
+#yoast-ai-message {
+	width: 100%;
+	padding: 0 8px;
+}
+
+#yoast-ai-meta-title,
+#yoast-ai-meta-description {
+	display: block;
+	width: 100%;
+    border-radius: 2px;
+    border-color: rgba(0,0,0,.15);
+    color: #373737;
+    padding: 8px;	
+}
+
+.yoast-ai-suggestions .character-count {
+	display: block;
+	margin-top: 8px;
+	margin-left: 4px;
+}
+
+.yoast-ai-suggestions .character-count.red {
+	color: red;
+}
+.yoast-ai-suggestions .character-count.orange {
+	color: orange;
+}
+.yoast-ai-suggestions .character-count.green {
+	color: green;
+}
+
+.yoast-ai-suggestions label {
+	font-weight: 700;
+	margin-bottom: 8px;
+	margin-left: 4px;
+	display: block;
+}
+
+.yoast-ai-meta-title-wrapper,
+.yoast-ai-meta-description-wrapper {
+	margin-bottom: 1rem;
+}
+
+.yoast-ai-field {
+	font-weight: 700;
+}
+
+.yoast-ai-label {
+	width: 100%;
+	display: block;
+	margin-bottom: 8px;
+	margin-left: 8px;
+
+}
+
